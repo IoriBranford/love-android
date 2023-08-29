@@ -25,6 +25,8 @@
       android:icon="@drawable/love"
       android:label="${NAME}"
       android:usesCleartextTraffic="true" >
+    <meta-data android:name="com.google.android.gms.games.APP_ID"
+        android:value="@string/game_services_project_id" />
     <activity
         android:name="org.love2d.android.GameActivity"
         android:exported="true"

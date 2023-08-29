@@ -11,7 +11,7 @@ android {
         applicationId project.properties["app.application_id"]
         versionCode project.properties["app.version_code"].toInteger()
         versionName project.properties["app.version_name"]
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdk 33
         
         def getAppName = {

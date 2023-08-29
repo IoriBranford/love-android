@@ -14,7 +14,7 @@ android {
     defaultConfig {
         compileSdkVersion 33
         buildToolsVersion '33.0.0'
-        minSdkVersion 16
+        minSdkVersion 19
         externalNativeBuild {
             ndkBuild {
                 arguments "-j" + Runtime.runtime.availableProcessors()
@@ -114,4 +114,5 @@ android {
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api 'androidx.appcompat:appcompat:1.6.1'
+    implementation "com.google.android.gms:play-services-games-v2:17.0.0"
 }
