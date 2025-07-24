@@ -13,3 +13,6 @@ NDK_TOOLCHAIN_VERSION := clang
 APP_SHORT_COMMANDS := true
 
 # APP_OPTIM := debug
+
+# https://developer.android.com/guide/practices/page-sizes
+APP_SUPPORT_FLEXIBLE_PAGE_SIZES := true
