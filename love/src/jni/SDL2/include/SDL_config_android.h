@@ -1,6 +1,6 @@
 /*
   Simple DirectMedia Layer
-  Copyright (C) 1997-2023 Sam Lantinga <slouken@libsdl.org>
+  Copyright (C) 1997-2025 Sam Lantinga <slouken@libsdl.org>
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -143,9 +143,9 @@
 #endif
 
 /* love2d-mod: Audio is handled by OpenAL */
-#define SDL_AUDIO_DRIVER_ANDROID    0
-#define SDL_AUDIO_DRIVER_OPENSLES   0
-#define SDL_AUDIO_DRIVER_AAUDIO     0
+#undef SDL_AUDIO_DRIVER_ANDROID
+#undef SDL_AUDIO_DRIVER_OPENSLES
+#undef SDL_AUDIO_DRIVER_AAUDIO
 #define SDL_AUDIO_DRIVER_DUMMY  1
 
 /* Enable various input drivers */
